@@ -1,0 +1,22 @@
+1 需下载mongodb  node
+
+
+2 home文件为数据库文件 放在跟mongodb的bin文件夹同一级
+
+
+3.在mongodb的bin文件夹中使用cmd
+语句：mongorestore.exe -d node-vue-moba ../home/moba/node-vue-moba
+
+4.在server文件夹中使用cmd  语句npm install bcrypt 因为是根据电脑位数而进行编码的，需重新下载
+
+
+
+admin 为后台管理页面： 使用npm run serve语句启动  （共14个页面）
+账号：admin1
+密码：123
+
+server 为服务器般的存在  使用npm run server启动
+
+web 为前端页面 使用npm run serve语句启动   （共3个页面，首页+新闻详细页面+角色详细页面【只有赵云有完整的数据|半成品】）
+
+web角色跟新闻有后台数据，其余的都没有
